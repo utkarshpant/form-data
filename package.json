@@ -1,5 +1,5 @@
 {
-  "name": "formform",
+  "name": "frmfrm",
   "version": "1.0.0",
   "description": "A simple utility to extract form data from a FormData object, without Object.fromEntries(...)",
   "main": "lib/index.js",
