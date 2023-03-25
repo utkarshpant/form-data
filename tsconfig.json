@@ -1,0 +1,24 @@
+{
+    "include": ["src/index.ts"],
+    "exclude": ["src/tests", "node_modules"],
+    "compilerOptions": {
+      "lib": ["DOM", "DOM.Iterable", "ES2019", "ES2015"],
+      "esModuleInterop": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "target": "ES5",
+      "strict": true,
+      "outDir": "./lib",
+      "declaration": true,
+      "allowJs": true,
+      "forceConsistentCasingInFileNames": true,
+      "baseUrl": ".",
+      "paths": {
+        "~/*": ["./*"]
+      },
+      "downlevelIteration": true,
+      "strictNullChecks": true,
+      "module": "ESNext"
+    }
+  }
+  
